@@ -238,7 +238,7 @@ def barplot_instances(data_in: MismatchHandler, instance_key: str, instance_inde
 
     axix_label = data_in.get_plot_axis_label()
     plt.xlabel(axix_label['x'])
-    plt.ylabel(axix_label['y'])
+    plt.ylabel('number of mismatching packets')
 
     if not notebook:
         plt.show()
