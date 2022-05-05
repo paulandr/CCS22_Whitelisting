@@ -8,7 +8,7 @@ network infrastructures. With this repository, a demo application
 (whitelisting_scenarios.ipynb) is provided that allows the analyses carried 
 out for the evaluation to be reproduced.
 
-Please note that only the public datasets are included in the demo application. 
+Please note that only the public datasets are included into the demo application. 
 Due to existing non-disclosure agreements with the operators of the real 
 operating infrastructures, the associated network data cannot be published here.
 
@@ -33,5 +33,8 @@ OT-Whitelisting
 ---
 
 ## Requirements
-The Jupyter Notebook is expected to be runnable on arbitrary Linux systems with a Python3 installation. Additional 
-packages are not required.
+The Jupyter Notebook is expected to be runnable on arbitrary Linux systems with a Python3 installation and the 
+following additional packages:
+- `matplotlib` >= 3.3.4
+- `pandas` >= 0.24.2
+- `jupyter` >= 1.0.0
